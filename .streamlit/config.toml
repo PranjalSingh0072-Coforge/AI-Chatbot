@@ -1,0 +1,35 @@
+[client]
+# Frontend optimization
+showWarningOnDirectExecution = false
+toolbarMode = "minimal"
+
+[logger]
+level = "warning"
+
+[theme]
+# Performance: Use light theme by default (less rendering)
+base = "light"
+primaryColor = "#1f77b4"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+
+[server]
+# Performance optimization
+maxUploadSize = 200
+enableCORS = false
+enableXsrfProtection = true
+port = 8501
+headless = true
+
+# Memory optimization
+runOnSave = true
+fileWatcherType = "auto"
+
+# Connection settings
+timeout = 30
+requestsPerSecond = 10
+
+[deprecation]
+showPyplotGlobalUse = false
+showfileUploaderEncoding = false
