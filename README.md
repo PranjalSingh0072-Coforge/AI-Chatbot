@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chatbot
 
 This repository contains a small Python chatbot project.
@@ -41,3 +42,7 @@ git push -u origin main
 ```
 
 If you'd like, I can initialize the local git repo and attempt to create & push the remote for you (requires GitHub authentication).
+=======
+# AI-Chatbot
+An AI-powered chatbot built using Retrieval-Augmented Generation (RAG) and Large Language Models. It provides intelligent, context-aware responses by integrating custom data, APIs, and real-time processing. Designed for accuracy, scalability, and seamless conversational experience.
+>>>>>>> d09e950b294a03cbfe668f9fba946c4b5a45e35d
